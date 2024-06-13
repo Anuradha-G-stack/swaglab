@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import java.time.Duration;
 
+import org.apache.commons.math3.optim.nonlinear.vector.jacobian.AbstractLeastSquaresOptimizer;
 import org.apache.poi.EncryptedDocumentException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -27,7 +28,11 @@ public class SwagLabLoginTest extends BaseTest {
 	 * 
 	 * driver=Browser.LaunchBrowser("https://www.saucedemo.com/"); }
 	 */
-		
+		@Test
+		public void sample()
+		{
+			System.out.println("sample test");
+		}
 	@Test(priority=1)
 
 		public void loginwithvaliduser() throws EncryptedDocumentException, IOException
